@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const User = require('../models/User')
 const Comment = require('../models/Comment')
-const generateId = require('../utilis/generateId')
+const generateId = require('../utils/generateId')
 
 module.exports = {
 
