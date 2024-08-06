@@ -1,21 +1,26 @@
 {
   "name": "new_project_mongodb",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "source/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon source/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.13.0",
+    "chai": "^5.1.1",
     "express": "^4.19.2",
     "graphql": "^16.9.0",
+    "mocha": "^10.7.0",
     "mongodb": "^6.8.0",
     "mongoose": "^8.5.1",
     "nodemon": "^3.1.4"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
 }
